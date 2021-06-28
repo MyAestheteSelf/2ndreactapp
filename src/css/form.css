@@ -1,0 +1,18 @@
+.add-task{
+    width: 50vw;
+    height:140px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 20% 30% 20% 30%;
+    grid-template-columns: 1fr;
+}
+.add-task label{
+    font-weight: 600;
+}
+.add-task input{
+    background: rgba(2, 16, 63, 0.86);
+    color: tomato;
+}
+.add-task input:focus{
+    outline: none;
+}
